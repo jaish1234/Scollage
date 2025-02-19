@@ -6,7 +6,7 @@ import Footer from "../component/Footer";
 function DefaultLayout() {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <Content />
             <Footer />
         </div>
