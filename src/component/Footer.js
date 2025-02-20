@@ -3,7 +3,7 @@ import Footerlogo from "../assets/img/footerlog.svg";
 
 function Footer() {
   return (
-    <footer className="bg-[#f5f5f5] -mt-24">
+    <footer className="bg-[#f5f5f5]">
       <div class="xl:mx-24 px-4">
         <div class="container relative ">
           <div class="flex flex-wrap pt-9 2xl:pt-36 pb-5 2xl:pb-24">
