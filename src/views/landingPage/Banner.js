@@ -3,6 +3,7 @@ import scollageLogo from "../../assets/svg/scollageLogo.svg";
 import homeBackground from "../../assets/img/homeBack.png";
 import Gpay from "../../assets/img/Gpay.png";
 import { LuMenu } from "react-icons/lu";
+import scollage from "../../assets/video/scollage.webm"
 
 function Banner() {
   return (
@@ -10,9 +11,9 @@ function Banner() {
       {/* Header Section */}
       <div className="fixed top-0 left-0 right-0 z-50">
         <div className="container mx-auto flex justify-between items-center">
-          <button className="text-[#707070] flex items-center space-x-3 bg-white px-5 py-2 rounded-full">
+          <button className="text-[#707070] flex items-center md:space-x-3 bg-white px-6 py-3 rounded-full">
             <LuMenu />
-            <p>Menu</p>
+            <p className="hidden md:block">Menu</p>
           </button>
           <img src={scollageLogo} alt="Scolage Logo" className="mx-auto" />
         </div>
@@ -38,12 +39,13 @@ function Banner() {
             </div>
           </div>
 
-          {/* Image Section */}
           <div>
-            <img
-              src={homeBackground}
-              alt="Scolage Background"
-              className="rounded-full w-80 h-80 object-cover"
+            <video
+              src={scollage}
+              className="w-full h-[22rem] max-w-sm rounded-full"
+              controls
+              autoPlay
+              loop
             />
           </div>
         </div>

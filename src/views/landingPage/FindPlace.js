@@ -1,5 +1,5 @@
 import React from "react";
-import homeBackground from "../../assets/img/homeBack.png";
+import scollage from "../../assets/video/scollage.webm"
 
 function FindPlace() {
     return (
@@ -24,10 +24,12 @@ function FindPlace() {
                         <h2 className="text-3xl font-semibold text-[#707070]">Online Admissions</h2>
                         <p className="text-xl">Access admissions faster in a better way</p>
                     </div>
-                    <img
-                        src={homeBackground}
-                        alt="Scolage Background"
-                        className="w-96 h-80 object-cover"
+                    <video
+                        src={scollage}
+                        className="w-full h-80"
+                        controls
+                        autoPlay
+                        loop
                     />
                 </div>
             </div>

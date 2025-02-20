@@ -1,5 +1,5 @@
 import React from "react";
-import homeBackground from "../../assets/img/homeBack.png";
+import scollage from "../../assets/video/scollage.webm"
 
 function FindCollage() {
     return (
@@ -12,10 +12,12 @@ function FindCollage() {
                     <i>We make it simpler for you to locate </i>
                     <i>the top junior colleges</i>
                 </div>
-                <img
-                    src={homeBackground}
-                    alt="Scolage Background"
-                    className="w-[35rem] h-[34rem] object-cover"
+                <video
+                    src={scollage}
+                    className="w-[35rem] h-[28rem]"
+                    controls
+                    autoPlay
+                    loop
                 />
             </div>
             <div>
