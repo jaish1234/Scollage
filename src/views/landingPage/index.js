@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import FindPlace from "./FindPlace";
 import FindCollage from "./FindCollage";
 import Slider from "./Slider"
+import Admission from "./Admission";
 
 function LandingPage() {
   return (
@@ -10,6 +11,7 @@ function LandingPage() {
       <Banner />
       <FindPlace />
       <FindCollage />
+      <Admission />
       <Slider />
     </div>
   );

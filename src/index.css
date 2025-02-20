@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.admission-container {
+  clip-path: polygon(0 0, 100% 0, 100% 69%, 24% 100%, 0 73%);
+}
+
+@media (max-width: 1024px) {
+  .admission-container {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 24% 100%, 0 85%);
+  }
+}
+
+@media (max-width: 768px) {
+  .admission-container {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 24% 100%, 0 85%);
+  }
+}
+
+@media (max-width: 480px) {
+  .admission-container {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 24% 100%, 0 90%);
+  }
+}
+
+
+
